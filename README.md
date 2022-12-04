@@ -11,3 +11,5 @@
 >> ipython kernel install --name "quantum-computing" --user
 >>
 >>jupyter notebook
+
+https://qiskit.org/textbook/ch-prerequisites/setting-the-environment.html
