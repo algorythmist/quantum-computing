@@ -2,9 +2,7 @@ import numpy as np
 from numpy import sin, cos, exp
 from scipy.linalg import kron
 
-
 # OPERATIONS
-
 
 def vector(list):
     """

@@ -2,4 +2,3 @@ cirq
 jupyterlab
 pytest
 qiskit[visualization]
-qiskit_ibm_runtime

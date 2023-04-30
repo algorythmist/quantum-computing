@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def norm(vector):
     """
     Norm of a complex vector
@@ -7,7 +8,8 @@ def norm(vector):
     :return:
     """
     v = np.array(vector)
-    return np.sqrt(sum(np.apply_along_axis(lambda c: abs(c)**2, 0, v)))
+    return np.sqrt(sum(np.apply_along_axis(lambda c: abs(c) ** 2, 0, v)))
+
 
 def normalize(vector):
     """
@@ -16,6 +18,4 @@ def normalize(vector):
     :return:
     """
     v = np.array(vector)
-    return v/norm(v)
-
-
+    return v / norm(v)
