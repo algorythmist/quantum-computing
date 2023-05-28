@@ -1,5 +1,13 @@
 # quantum-computing
 
+### Structure
+
+- **code examples**: Jupyter Notebooks with quantum algorithms - mostly qiskit
+- **proplems**: Solutions for problems, mainly from the book "Quantum Compututation and Quantum Information" by Nielsen and Chuang
+- **qc**: Utilities for solving (small) quantum computing problems
+
+### Installation
+
 >> mkdir venv
 >>
 >> python -m venv venv
