@@ -15,6 +15,11 @@ def gcd(a: int, b: int) -> int:
 
 
 def find_coprime(n: int) -> int:
+    """
+    Brute force search for a coprime of n
+    :param n: an integer
+    :return: an integer coprime to n
+    """
     while True:
         b = random.randint(1, n - 1)
         if gcd(n, b) == 1:
@@ -28,6 +33,12 @@ def powers(a: int, n: int, r: int = None):
 
 
 def find_period(a: int, n: int):
+    """
+    Find the period (order) of a mod n
+    :param a: An integer < n
+    :param n: The modulo
+    :return: the smallest power of a such that a^k mod n = 1
+    """
     return next(k for k in range(1, n-1) if (a**k) % n == 1)
 
 

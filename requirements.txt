@@ -1,8 +1,8 @@
 cirq
-jupyterlab
 pytest
+scipy
 qiskit[visualization]
+jupyterlab
+jupyter_contrib_nbextensions
 # jupyter to pdf
 nbconvert[webpdf]
-jupyter_contrib_nbextensions
-
