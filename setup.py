@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name='quantum-computing',
-    version='0.1',
+    version='0.2',
     packages=setuptools.find_packages(),
     url='https://github.com/algorythmist/quantum-computing',
     license='MIT',
