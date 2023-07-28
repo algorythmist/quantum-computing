@@ -1,5 +1,6 @@
 #cirq
 qiskit[visualization]
+qiskit-aer
 scipy
 pytest
 jupyterlab
