@@ -21,3 +21,12 @@ def fidelity(p, q):
     """
     assert len(p) == len(q)
     return np.dot(np.sqrt(p), np.sqrt(q))
+
+
+def shannon_entropy(p):
+    """
+    Compute the entropy of a probability distribution
+    :param p: the probability distribution
+    :return: the entropy
+    """
+    return -np.sum(p * np.log2(p))
