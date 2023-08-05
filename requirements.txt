@@ -1,6 +1,7 @@
 #cirq
 qiskit[visualization]
 qiskit-aer
+qiskit-machine-learning
 scipy
 pytest
 jupyterlab
