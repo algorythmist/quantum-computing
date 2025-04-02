@@ -1,5 +1,5 @@
 from qiskit import QuantumCircuit, transpile
-from qiskit.providers.aer import AerSimulator
+from qiskit_aer import AerSimulator
 
 
 def hadamard(circuit: QuantumCircuit, qubits: int):
